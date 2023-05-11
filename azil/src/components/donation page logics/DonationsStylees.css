@@ -1,0 +1,100 @@
+.trazimo-div{
+  float: left;
+  width: 35%;
+  margin-left: 5%;
+}
+
+.donirano-div{
+  float: right;
+  width: 35%;
+  margin-right: 5%;
+}
+
+.donation-form {
+    width: 40%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    background-color: #243;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+    color: #fff;
+    margin-top: 15px;
+    margin-left: 29%;
+}
+
+.donation-label {
+    font-weight: bold;
+    margin-top: 20px;
+    margin-bottom: 10px;
+  }
+  
+.donation-input {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-bottom: 20px;
+}
+
+.donation-button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+
+.donation-button:hover {
+    background-color: #45a049;
+  }
+
+.trazimo-list,
+.donirano-list
+{
+    list-style: none;
+    background-color:#243;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+    color: #fff;
+}
+
+.trazimo-single,
+.donirano-single
+{
+  padding: 20px;
+}
+
+.izbrisi-donaciju,
+.izbrisi-donaciju2
+{
+    background-color: red;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+.premjesti-donaciju-u-donirano,
+.premjesti-donaciju-u-trazeno
+{
+  background-color:cadetblue;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  padding: 5px 10px;
+  cursor: pointer;
+  margin-left: 10px;
+}
+
+
+
+
+
+
+

@@ -1,0 +1,41 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 95%;
+    height: 75px;
+    padding: 0 30px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.30);
+    border-radius: 12px;
+    
+}
+
+.navbar-logo {
+    color:#245;
+    font-size: 2.5rem;
+    cursor: pointer;
+}
+
+.navbar-list {
+    display: grid;
+    list-style: none;
+    grid-template-columns: repeat(7,auto);
+    align-items: center;
+    grid-gap: 25px;
+}
+
+.nav-menu{
+    text-decoration: none;
+    color: #245;
+    font-size: 1.3rem;
+}
+
+.nav-menu:hover {
+    background-color:cadetblue;
+    color: #fff;
+    border-radius: 5px;
+    transition: all 0.3s ease-in-out;
+
+}
+
+

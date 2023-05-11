@@ -1,0 +1,112 @@
+.show-notification-div {
+    display:inline-block;
+    float: right;
+    width: 48%;
+    margin-top: 45px;
+}
+
+
+.new-notification-div {
+    display: inline-block;
+    margin-left: 10px;
+    float: left;
+    width: 50%;
+}
+
+
+.notification-form {
+    width: 90%;
+    margin-left: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    background-color: #243;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+    color: #fff;
+    
+  }
+
+.new-notification{
+    margin-left: 35%;
+    text-align: left;
+    
+}
+  
+.notification-label {
+    font-weight: bold;
+    margin-top: 20px;
+    margin-bottom: 10px;
+  }
+  
+.notification-input {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-bottom: 20px;
+}
+
+.notification-select {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-bottom: 20px;
+}
+
+.notification-textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-bottom: 20px;
+  height: 100px;
+}
+  
+.notification-checkbox {
+  margin-bottom: 20px;
+  margin-left: 10px;
+}
+  
+.notification-button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+
+.delete-notification-button{
+    background-color: red;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+  
+.notification-button:hover {
+    background-color: #45a049;
+  }
+  
+.notification-list {
+    list-style: none;
+    background-color: #243;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+    color: #fff;
+    
+
+}
+
+.single-notification {
+    padding: 20px;
+}
+
+

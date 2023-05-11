@@ -1,0 +1,81 @@
+.animal-form {
+    width: 60%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    background-color: #243;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+    color: #fff;
+    
+  }
+  
+.animal-label {
+    font-weight: bold;
+    margin-top: 20px;
+    margin-bottom: 10px;
+  }
+  
+.animal-input-text-number {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-bottom: 20px;
+}
+
+.animal-select {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-bottom: 20px;
+}
+
+.animal-textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-bottom: 20px;
+  height: 100px;
+}
+  
+.animal-checkbox {
+  margin-bottom: 20px;
+  margin-left: 10px;
+}
+  
+.animal-button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+.animal-button:hover {
+    background-color: #45a049;
+  }
+  
+
+  
+.animal-input-text-number:focus,
+  .animal-select:focus,
+  .animal-textarea:focus {
+    border-color: #4CAF50;
+  }
+  
+.animal-input-text-number:required:invalid,
+  .animal-select:required:invalid,
+  .animal-textarea:required:invalid {
+    border-color: red;
+  }
+  
+
